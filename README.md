@@ -13,10 +13,10 @@ of William Byrd & Dan Friedman et al, and in particular the
 outstanding work on barliman to perform program synthesis for a subset
 of scheme.
 
-If you're like me after seeing the barliman demonstrations recorded at
-clojure conj you rushed to see how it was done, however there's a lot
-of code with few comments and it's not always clear what you're
-looking at.
+If you're like me after seeing
+the [barliman demonstrations](https://www.youtube.com/watch?v=OyfBQmvr2Hc)
+you rushed to see how it was done, however there's a lot of code with
+few comments and it's not always clear what you're looking at.
 
 Thankfully William Byrd has recorded many excellent video conference
 sessions explaining relational programming, however the length and
