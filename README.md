@@ -93,3 +93,12 @@ Let's have a go...
   (run 1 [q] (evalo-1 `(~q (and true true)) false)) ;; => (clojure.core/not)
 ```
 
+## Implementation
+
+If you have minikanren or core.logic the implementation is trivial.
+Simply
+[implement relational variants](https://github.com/RickMoynihan/evalo/blob/master/src/evalo/core.clj#L7-L37) of
+the boolean operators `oro`, `ando`, `noto`, `xoro`.  Now we can
+implement
+[the evaluator](https://github.com/RickMoynihan/evalo/blob/master/src/evalo/core.clj#L39-L63) itself,
+`evalo-1`
