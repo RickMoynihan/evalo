@@ -1,8 +1,6 @@
 (ns evalo.core
   "Program synthesis for boolean expressions"
-  (:require [clojure.tools.nrepl.server :refer (start-server stop-server)]
-            [clojure.core.logic :as l :refer [== != fresh run conde conso]])
-  (:gen-class))
+  (:require [clojure.core.logic :as l :refer [== != fresh run conde conso]]))
 
 (defn oro
   "Relational boolean or."
